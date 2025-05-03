@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkpiping_ui"]=self["webpackChunkpiping_ui"]||[]).push([[856],{50856:function(t,e,r){r.r(e),r.d(e,{supportsSwDownload:function(){return n}});let i=!1;function n(){return i}(async()=>{if(!("serviceWorker"in navigator))return!1;await navigator.serviceWorker.ready;for(let e=5;0!==e;e--){await new Promise((t=>setTimeout(t,1e3)));try{const t=await fetch("/sw-download-support/v2");if(200===t.status)return i="OK"===await t.text(),void console.log("Support streaming download:",i)}catch(t){}}})()}}]);
+//# sourceMappingURL=856.bd238812.js.map

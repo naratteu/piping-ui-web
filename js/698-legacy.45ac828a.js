@@ -1,0 +1,2 @@
+(self["webpackChunkpiping_ui"]=self["webpackChunkpiping_ui"]||[]).push([[698],{56698:function(t){"function"===typeof Object.create?t.exports=function(t,e){e&&(t.super_=e,t.prototype=Object.create(e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}))}:t.exports=function(t,e){if(e){t.super_=e;var o=function(){};o.prototype=e.prototype,t.prototype=new o,t.prototype.constructor=t}}}}]);
+//# sourceMappingURL=698-legacy.45ac828a.js.map

@@ -1,0 +1,4 @@
+(self["webpackChunkpiping_ui"]=self["webpackChunkpiping_ui"]||[]).push([[673],{76673:function(e){function t(){return new DOMException("The request is not allowed","NotAllowedError")}async function n(e){if(!navigator.clipboard)throw t();return navigator.clipboard.writeText(e)}async function o(e){const n=document.createElement("span");n.textContent=e,n.style.whiteSpace="pre",n.style.webkitUserSelect="auto",n.style.userSelect="all",document.body.appendChild(n);const o=window.getSelection(),c=window.document.createRange();o.removeAllRanges(),c.selectNode(n),o.addRange(c);let a=!1;try{a=window.document.execCommand("copy")}finally{o.removeAllRanges(),window.document.body.removeChild(n)}if(!a)throw t()}async function c(e){try{await n(e)}catch(c){try{await o(e)}catch(a){throw a||c||t()}}}
+/*! clipboard-copy. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+e.exports=c}}]);
+//# sourceMappingURL=673-legacy.62c9cfeb.js.map
